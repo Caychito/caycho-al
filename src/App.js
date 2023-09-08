@@ -110,7 +110,7 @@ function App() {
           <label>
             <p>Nombre de contacto</p>
             <input name="con" onChange={handleChange4}/>
-          </label>
+          </label> 
           <label>
             <p>Télefono/Celular</p>
             <input name="tel" onChange={handleChange5}/>
@@ -121,7 +121,5 @@ function App() {
     </div>
   )
 }
-
-
 
 export default App;
